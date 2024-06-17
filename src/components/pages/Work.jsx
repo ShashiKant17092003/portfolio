@@ -33,7 +33,7 @@ const Work = () => {
           <ul className={listM2?'unhide':''}>
             <li onClick={()=>{setWpage(<Password />);setlistM2(false)}}>Password Genrator</li>
             <li onClick={()=>{setWpage(<UrlShortner />);setlistM2(false)}}>URL Shortner</li>
-            <li onClick={()=>{setWpage(< Weather/>);setlistM2(false)}}>project-3</li>
+            <li onClick={()=>{setWpage(< Weather/>);setlistM2(false)}}>Weather App</li>
           </ul>
         </div>
       </div>
