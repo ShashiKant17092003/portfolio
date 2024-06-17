@@ -17,7 +17,7 @@ const Navbar = () => {
         <FontAwesomeIcon icon={!menuOpen ? faBars : faXmark} />
       </div>
       <ul className={menuOpen ? "open" : "close"}>
-        <li><NavLink to="/" onClick={()=>change()}>Home</NavLink></li>
+        <li><NavLink to="/portfolio" onClick={()=>change()}>Home</NavLink></li>
         <li><NavLink to="/resume" onClick={()=>change()}>Resume</NavLink></li>
         <li><NavLink to="/work" onClick={()=>change()}>Work</NavLink></li>
         <li><NavLink to="/contact" onClick={()=>change()}>Contact</NavLink></li>
