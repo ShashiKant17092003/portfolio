@@ -1,0 +1,186 @@
+.header,.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 5vw 0rem 5vw;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-size: 2.5vh;
+}
+.name{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 7vh;
+    font-weight: bold;
+    /* line-height: 10vh; */
+}
+.green{
+    font-family: cursive;
+    color: #00FE99;
+    margin-bottom: 2vh
+}
+
+.description{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 5vmin;
+    width: 40vw;
+    text-align: justify;
+}
+.img {
+    border-radius: 50%;
+    height: 60vmin;
+    width: 60vmin;
+    box-shadow: 0 0 8px 10px #21ef9c;
+    padding: 0.5% 0 0 0.5%;
+    position: relative;
+}
+
+.img::before {
+    content: '';
+    position: absolute;
+    top: 2.5%;
+    left: 2.5%;
+    height: 59vmin;
+    width: 59vmin;
+    border-radius: 50%;
+    box-shadow:inset 0 0 5px 5px #21ef9c;
+    z-index: 1;
+}
+
+.img img {
+    height: 59vmin;
+    width: 59vmin;
+    border-radius: 50%;
+    position: relative;
+    z-index: 0;
+}
+.buttons{
+    display: flex;
+    width: 40vmax;
+    justify-content: space-around;
+    padding:3vh 3vw;
+    text-align: center;
+}
+.buttons .button{
+    margin: 0.5rem;
+    width: 50%;
+    height: 5vmin;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.buttons .button .socialIcons{
+    border: 1px solid #00FE99;
+    height: 3vmax;
+    width: 3vmax;
+    font-size: 120%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00FE99;
+    transition: font-size 0.3s ease-in-out;
+}
+.buttons .button .socialIcons:hover{
+    font-size: 170%;
+    cursor: pointer;  
+}
+.download{
+    transition: font-size 0.3s ease-in-out;
+}
+.download:hover{
+    font-size: 120%;
+    cursor: pointer;
+}
+.btn{
+    align-items: center;
+    border: 1px solid #00fe99;
+    border-radius: 50px;
+    color: #00FE99;
+    display: flex;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+.social{
+    justify-content: space-between;
+}
+
+.footer{
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+.footer .box{
+    border: none;
+    display: flex;
+    width: 100%;
+}
+.footer .box .inbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.footer .box .inbox .text-box{
+    padding-right: 2%;                                          
+    text-align: start;
+    align-items: center;
+}
+.footer .box .inbox .text-box .text-desc{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    align-items: center;
+}
+.num{
+    font-size: 300%;
+}
+@media (max-width:800px) {
+    .header{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .text-area{
+        padding-top: 20%;
+    }
+    .description{
+        width: 100%;
+    }
+    .buttons{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        /* margin-left: 20%; */
+    }
+    .buttons .button{
+        width: 55vmin;
+    }
+
+    .buttons .button .socialIcons{
+        height: 5vmax;
+        width: 5vmax;
+        font-size: 140%;
+    }
+    .buttons .button .socialIcons:hover{
+        font-size: 160%;
+    }
+    .header{
+        padding: 0rem 2vw 0.5rem 2vw;
+    
+    }
+    .footer .box{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .footer .box .inbox{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+}
