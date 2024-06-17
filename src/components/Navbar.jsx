@@ -12,7 +12,7 @@ const Navbar = () => {
     }
   return (
     <nav>
-      <Link to="/" className="title"><span className='first'>S</span><span className='last'>Kant</span></Link>
+      <Link to="/portfolio" className="title"><span className='first'>S</span><span className='last'>Kant</span></Link>
       <div className="menu" onClick={()=>{setmenuOpen(!menuOpen)}}>
         <FontAwesomeIcon icon={!menuOpen ? faBars : faXmark} />
       </div>
