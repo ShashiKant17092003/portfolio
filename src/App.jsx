@@ -14,7 +14,7 @@ function App() {
     <div className='App' onContextMenu={handleContextMenu}>
       <Navbar />
       <Routes className="rot">
-        <Route path='/' element={<Home />} />
+        <Route path='/portfolio' element={<Home />} />
         <Route path='/home' element={<Home />} />
         <Route path='/resume' element={<Resume />} />
         <Route path='/work' element={<Work />} />
