@@ -73,7 +73,7 @@ const Skills = () => (
     <Icons prop={<FontAwesomeIcon icon={faPython} className='icon' />} />
   </>
 );
-const details = [{'Name':'Shashi Kant'},{'phone':'+91 6394582014'},{'Experience':'less than 1 year'},{'Linkedin':<Link to='https://www.linkedin.com/in/shashi-kant-068587250/' target='_blank'>shashi-kant-068587250</Link>},{'Nationality':'Indian'},{'Email':'shashikantsln1793@gmail.com'},{'Languages':'English, Hindi'},{'Github':<Link to='https://github.com/ShashiKant17092003' target='_blank'>ShashiKant17092003</Link>}]
+const details = [{'Name':'Shashi Kant'},{'phone':'+91 639458xxxx'},{'Experience':'less than 1 year'},{'Linkedin':<Link to='https://www.linkedin.com/in/shashi-kant-068587250/' target='_blank'>shashi-kant-068587250</Link>},{'Nationality':'Indian'},{'Email':'shashikantsln1793@gmail.com'},{'Languages':'English, Hindi'},{'Github':<Link to='https://github.com/ShashiKant17092003' target='_blank'>ShashiKant17092003</Link>}]
 
 const About = () => (
   <>
