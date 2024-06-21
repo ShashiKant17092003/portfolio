@@ -24,7 +24,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="contact box2">
-          <Info icon={<FontAwesomeIcon icon={faPhone} style={{color: "#00fe99",backgroundColor:'#302f35'}} />} title='Phone' value='+91 6394582014' />
+          <Info icon={<FontAwesomeIcon icon={faPhone} style={{color: "#00fe99",backgroundColor:'#302f35'}} />} title='Phone' value='+91 639458xxxx' />
           <Info icon={<FontAwesomeIcon icon={faEnvelope} style={{color: "#00fe99",backgroundColor:'#302f35'}} />} title='Email' value='shashikantsln1793@gmail.com' />
           <Info icon={<FontAwesomeIcon icon={faLocationDot} style={{color: "#00fe99",backgroundColor:'#302f35'}} />} title='Address' value='Kanpur, Uttar Pradesh' />
       </div>
