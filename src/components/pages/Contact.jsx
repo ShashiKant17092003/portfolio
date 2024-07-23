@@ -58,9 +58,15 @@ const Contact = () => {
         </div>
       </div>
       <div className="contact box2">
+<<<<<<< HEAD
         <Info icon={<FontAwesomeIcon icon={faPhone} style={{ color: "#00fe99", backgroundColor: '#302f35' }} />} title='Phone' value='+91 6394582014' />
         <Info icon={<FontAwesomeIcon icon={faEnvelope} style={{ color: "#00fe99", backgroundColor: '#302f35' }} />} title='Email' value='shashikantsln1793@gmail.com' />
         <Info icon={<FontAwesomeIcon icon={faLocationDot} style={{ color: "#00fe99", backgroundColor: '#302f35' }} />} title='Address' value='Kanpur, Uttar Pradesh' />
+=======
+          <Info icon={<FontAwesomeIcon icon={faPhone} style={{color: "#00fe99",backgroundColor:'#302f35'}} />} title='Phone' value='+91 639458xxxx' />
+          <Info icon={<FontAwesomeIcon icon={faEnvelope} style={{color: "#00fe99",backgroundColor:'#302f35'}} />} title='Email' value='shashikantsln1793@gmail.com' />
+          <Info icon={<FontAwesomeIcon icon={faLocationDot} style={{color: "#00fe99",backgroundColor:'#302f35'}} />} title='Address' value='Kanpur, Uttar Pradesh' />
+>>>>>>> 9e69cf0a605c996619e5041b09d09a01732cacb9
       </div>
     </div>
   )
