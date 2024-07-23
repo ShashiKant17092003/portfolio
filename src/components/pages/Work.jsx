@@ -7,6 +7,7 @@ import { useState } from 'react';
 import Password from './works/Password';
 import UrlShortner from './works/UrlShortner';
 import Weather from './works/Weather';
+import App from '../../App';
 
 const Work = () => {
   const [listM1,setlistM1] = useState(false);
@@ -21,7 +22,7 @@ const Work = () => {
             Major Projects
           </span>
           <ul className={listM1?'unhide':''}>
-            <li onClick={()=>setlistM1(false)}>project-1</li>
+            <li onClick={()=>{setlistM1(false);setWpage(<App />)}}>Portfolio</li>
             <li onClick={()=>setlistM1(false)}>project-2</li>
             <li onClick={()=>setlistM1(false)}>project-3</li>
           </ul>
