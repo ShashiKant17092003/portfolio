@@ -46,7 +46,7 @@ const Resume = () => {
 
 const Experience = () => (
   <>
-    <Card startDate='May-2024' endDate='June-2024' title='Cyber Security Intern' company='CDAC Noida' />
+    <Card startDate='May 2024' endDate='June 2024' title='Cyber Security Intern' company='CDAC Noida' />
   </>
 );
 
