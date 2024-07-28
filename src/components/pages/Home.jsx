@@ -24,7 +24,7 @@ const Home = () => {
                 <div className="socialIcons" ><a href="https://github.com/ShashiKant17092003" target='_blank'><FontAwesomeIcon icon={faGithub}  /></a></div>
                 <div className="socialIcons" ><a href="https://www.linkedin.com/in/shashi-kant-068587250/" target='_blank'><FontAwesomeIcon icon={faLinkedin}  /></a></div>
                 <div className="socialIcons" ><a href="https://www.instagram.com/shashikant_1793_/?igsh=bmtoMGRmdzAxYzdo" target='_blank'><FontAwesomeIcon icon={faInstagram}  /></a></div>
-                <div className="socialIcons" ><a href="/" target='_blank'><FontAwesomeIcon icon={faTwitter}  /></a></div>
+                <div className="socialIcons" ><a href="#" target='_blank'><FontAwesomeIcon icon={faTwitter}  /></a></div>
               </div>
             </div>
         </div>
