@@ -19,7 +19,7 @@ const Home = () => {
               I am a driven computer science student at UIET Kanpur,deeply passionate about mastering Data Structures and Algorithms (DSA) while nurturing a keen interest in web development. With a blend of curiosity, determination, and a strong work ethic, I continuously seek to expand my knowledge and skills. I am eager to apply for the web development internship role to further enhance my expertise and contribute effectively to your team.
             </span></div>
             <div className="buttons">
-              <div className="button btn">DOWNLOAD CV <FontAwesomeIcon icon={faDownload} className='download'/></div>
+              <div className="button btn"><a href="https://drive.google.com/file/d/1t1hRxuLGTEKK0LV7q8Fdo8WTfb2lQzQT/view?usp=drive_link" target='_blank'>DOWNLOAD CV <FontAwesomeIcon icon={faDownload} className='download'/></a></div>
               <div className="button social">
                 <div className="socialIcons" ><a href="https://github.com/ShashiKant17092003" target='_blank'><FontAwesomeIcon icon={faGithub}  /></a></div>
                 <div className="socialIcons" ><a href="https://www.linkedin.com/in/shashi-kant-068587250/" target='_blank'><FontAwesomeIcon icon={faLinkedin}  /></a></div>

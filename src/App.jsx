@@ -10,6 +10,7 @@ function App() {
   const handleContextMenu = (event) => {
     event.preventDefault();
   };
+  
   return (
     <div className='App' onContextMenu={handleContextMenu}>
       <Navbar />
