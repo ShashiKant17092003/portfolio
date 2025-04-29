@@ -27,6 +27,8 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          username: ${{ github.actor }}
+          useremail: ${{ github.actor }}@users.noreply.github.com
+          force_orphan: true
+          commit_message: "Deploy to GitHub Pages"
           publish_dir: ./dist
-          cname: www.yourcustomdomain.com # Optional: if you're using a custom domain
