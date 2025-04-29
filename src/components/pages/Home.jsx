@@ -21,7 +21,7 @@ const Home = () => {
           </div>
           <div className="buttons">
             <div className="button btn">
-              <a href="https://drive.google.com/file/d/1t1hRxuLGTEKK0LV7q8Fdo8WTfb2lQzQT/view?usp=drive_link" target='_blank' rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/14vuZSDviGcxV7B9nE2fYBpN2e8WkbE1n/view?usp=drive_link" target='_blank' rel="noopener noreferrer">
                 DOWNLOAD CV <FontAwesomeIcon icon={faDownload} className='download'/>
               </a>
             </div>
