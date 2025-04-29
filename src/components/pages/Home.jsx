@@ -53,7 +53,7 @@ const Home = () => {
             </div>
           </div>
           <div className="inbox">
-            <div className="text-box num">00</div>
+            <div className="text-box num">03</div>
             <div className="text-box">
               <div className="text-desc">Projects</div>
               <div className="text-desc">Completed</div>
@@ -62,14 +62,14 @@ const Home = () => {
         </div>
         <div className="box">
           <div className="inbox">
-            <div className="text-box num">00</div>
+            <div className="text-box num">05</div>
             <div className="text-box">
               <div className="text-desc">Technologies</div>
               <div className="text-desc">Mastered</div>
             </div>
           </div>
           <div className="inbox">
-            <div className="text-box num">00</div>
+            <div className="text-box num">50</div>
             <div className="text-box">
               <div className="text-desc">Code</div>
               <div className="text-desc">Commits</div>
