@@ -4,8 +4,19 @@ import Sk from '../img/SK1.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { useEffect, useState } from 'react';
+import {  githubStats } from '../utils/fetchGitHubStats';
+import { NavLink } from 'react-router-dom';
+
+
 
 const Home = () => {
+  const [stats, setStats] = useState({ projects: 0, languagesUsed: 0 });
+
+  useEffect(() => {
+    githubStats().then(data => setStats({projects:data.repos,languagesUsed:data.langs}));
+  }, []);
+
   return (
     <div className='container'>
      <div className="header">
@@ -27,7 +38,7 @@ const Home = () => {
             </div>
             <div className="button social">
               <div className="socialIcons">
-                <a href="https://github.com/ShashiKant17092003" target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub}  /></a>
+                <NavLink to="/github"><FontAwesomeIcon icon={faGithub}  /> </NavLink>
               </div>
               <div className="socialIcons">
                 <a href="https://www.linkedin.com/in/shashi-kant-068587250/" target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin}  /></a>
@@ -53,7 +64,7 @@ const Home = () => {
             </div>
           </div>
           <div className="inbox">
-            <div className="text-box num">03</div>
+            <div className="text-box num">{String(stats.projects).padStart(2, '0')}</div>
             <div className="text-box">
               <div className="text-desc">Projects</div>
               <div className="text-desc">Completed</div>
@@ -62,19 +73,19 @@ const Home = () => {
         </div>
         <div className="box">
           <div className="inbox">
-            <div className="text-box num">05</div>
+            <div className="text-box num">{String(stats.languagesUsed).padStart(2, '0')}</div>
             <div className="text-box">
               <div className="text-desc">Technologies</div>
               <div className="text-desc">Mastered</div>
             </div>
           </div>
-          <div className="inbox">
-            <div className="text-box num">50</div>
+          {/* <div className="inbox">
+            <div className="text-box num">{String(stats.totalCommits/10).padStart(2, '0')}</div>
             <div className="text-box">
               <div className="text-desc">Code</div>
               <div className="text-desc">Commits</div>
             </div>
-          </div>
+          </div> */}
         </div>
      </div>
     </div>

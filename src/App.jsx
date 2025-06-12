@@ -5,6 +5,7 @@ import Home from './components/pages/Home.jsx'
 import Resume from './components/pages/Resume.jsx'
 import Work from './components/pages/Work.jsx'
 import Contact from './components/pages/Contact.jsx'
+import GitHubData from './components/pages/githubdata.jsx'
 
 function App() {
   const handleContextMenu = (event) => {
@@ -19,6 +20,7 @@ function App() {
         <Route path='/resume' element={<Resume />} />
         <Route path='/work' element={<Work />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/github' element={<GitHubData />} />
       </Routes>
     </div>
   )
