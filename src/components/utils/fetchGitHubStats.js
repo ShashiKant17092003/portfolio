@@ -1,6 +1,7 @@
 import axios from 'axios';
 
 const token = import.meta.env.VITE_GITHUB_TOKEN;
+console.log(token);
 
 const getReposWithLanguage = async () => {
   try {
