@@ -1,0 +1,127 @@
+.resume {
+    margin-top:12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .R-box {
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 30vw;
+    line-height: 150%;
+  }
+  .R-box-2{
+    width: 50vw;
+  }
+  
+  .R-start {
+    font-size: 6vmin;
+    font-weight: 100;
+    margin-bottom: 6vh;
+  }
+  
+  .Start-2{
+    margin-left: 4.5%;
+  }
+
+  .desc {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .R-btns ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .R-btns li {
+    background-color: #2c2b34;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0px;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 5%;
+  }
+  
+  .R-btns li.active {
+    background-color: #00FE99;
+    color: black;
+    width: 100%;
+    border-bottom: none;
+  }
+  .R-btns li.active:hover {
+    background-color: #00FE99;
+    border: none;
+    color: black;
+    width: 100%;
+  }
+  
+  .R-btns li:hover {
+    background-color: #00e4819f;
+    color: black;
+  }
+  
+  .R-pages {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    height: 50vmin;
+    font-size: 18px;
+    padding: 0;
+    padding-top: 15px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+  }
+
+.aboutOD{
+  width: 100%;
+  display: flex;
+  margin-top: -20%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.aboutID{
+  margin: 5% 0;
+  width: 20rem;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500;
+}
+.key{
+  color: #666666;
+}
+
+@media (max-width:700px) {
+  .resume{
+    margin-top:2vh;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0;
+  }
+  .R-box{
+    margin-top: 0vh;
+    padding-top:0 ;
+    width: 100%;
+  }
+  .R-start{
+    margin-bottom: 3vh;
+  }
+  .aboutOD{
+    padding-top: 5%;
+  }
+  .aboutID{
+    margin: 2% 0;    
+  }
+}

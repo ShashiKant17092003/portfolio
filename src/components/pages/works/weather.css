@@ -1,0 +1,166 @@
+.element-box{
+    margin: 2%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.search-Box{
+    display: flex;
+    justify-content: center;
+    outline: none;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    background: transparent;
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+    margin-top: 1%;
+    padding: 2%;
+    height: 30px;
+    width: 30px;
+    font-size: 25px;
+    color: white;
+    background: none;
+    border-radius: 50%;
+}
+.search-icon FontAwesomeIcon{
+    background: none;
+}
+.element-result{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+    color: rgb(190, 189, 189);
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
+.weather-temprature-icon{
+    background: none;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 10%;
+    align-items: center;
+}
+
+.T-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: none;
+    font-size: 40px;
+}
+.T-desc{
+    margin-top: -35px;
+    font-size: 20px;
+    background: none;
+}
+.T-desc-2{
+    font-size: 25px;
+    background: none;
+}
+.weather-temprature{
+    background: none;
+}
+
+.temprature-info{
+    display: flex;
+    flex-direction: column;
+    background: none;
+    margin: 3%;
+    /* align-items: center; */
+    width: 50%;
+}
+.T-icon-data{
+    align-items: flex-end;
+    background: none;
+}
+.T-data .temprature-info img{
+    /* font-size: 20px;
+    hei */
+    height: 110px;
+    width: 110px;
+}
+
+.weather-info{
+    background: none;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    gap: 1%;
+    margin-bottom: 10%;
+}
+
+.weather-other{
+    background: none;
+    width: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.other{
+    display: flex;
+    text-align: start;
+    background: none;
+}
+.other-icon{
+    background: none;
+    font-size: 30px;
+}
+.other-data{
+    background: none;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+    margin-left: 10px;
+}
+.other-text{
+    background: none;
+    font-size: 12px;
+    font-weight: 500;
+}
+.temp-data{
+    background: none;
+}
+.sun-info{
+    background: none;
+    margin-top: 10%;
+    display: flex;
+    width: 90%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.sun{
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.clock{
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    font-weight: 500;
+    width: 100%;
+    font-size: 30px;
+}
