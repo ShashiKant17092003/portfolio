@@ -59,14 +59,14 @@ const Home = () => {
       <div className="footer" style={{marginTop:'-15px'}}>
         <div className="box">
           <div className="inbox box1">
-            <div className="text-box num">00</div>
+            <div className="text-box num">01</div>
             <div className="text-box">
               <div className="text-desc">Years of</div>
               <div className="text-desc">Experience</div>
             </div>
           </div>
           <div className="inbox">
-            <div className="text-box num">{String(stats.projects).padStart(2, '0')}</div>
+            <div className="text-box num">{String(stats.projects).padStart(2, '4')}</div>
             <div className="text-box">
               <div className="text-desc">Projects</div>
               <div className="text-desc">Completed</div>
@@ -76,7 +76,7 @@ const Home = () => {
 
         <div className="box">
           <div className="inbox">
-            <div className="text-box num">{String(stats.languagesUsed).padStart(2, '0')}</div>
+            <div className="text-box num">{String(stats.languagesUsed).padStart(2, '5')}</div>
             <div className="text-box">
               <div className="text-desc">Technologies</div>
               <div className="text-desc">Mastered</div>
